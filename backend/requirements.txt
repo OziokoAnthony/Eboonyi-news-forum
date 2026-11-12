@@ -1,0 +1,11 @@
+# Versions relaxed for Python 3.15 compatibility (older pins have no prebuilt wheels for it)
+fastapi>=0.115.12
+uvicorn>=0.34.2
+sqlalchemy>=2.0.40
+psycopg[binary]>=3.2.9
+# pg8000: pure-Python PostgreSQL driver, used because Windows Application Control
+# blocks psycopg's compiled DLLs on this machine
+pg8000>=1.30
+pydantic>=2.11.4
+python-dotenv>=1.1.0
+python-multipart>=0.0.20

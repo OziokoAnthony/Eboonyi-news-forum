@@ -1,0 +1,3 @@
+# Google AdSense authorisation — served at the site root.
+# Replace XXXXXXXXXXXXXXXX with your real publisher ID (the digits from ca-pub-XXXXXXXXXXXXXXXX).
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

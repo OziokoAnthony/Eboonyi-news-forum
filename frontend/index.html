@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14251f" />
+    <meta name="description" content="News, history, people and community stories from Ebonyi State, Nigeria." />
+    <title>Ebonyi News Forum | Our State. Our Stories.</title>
+    <script>
+      /* ---- Google AdSense ----
+         Replace the placeholder with your real publisher ID from your AdSense
+         account (format: ca-pub-1234567890123456).
+         While the placeholder is in place, no ad script is loaded at all. */
+      window.ADS_PUB_ID = 'ca-pub-XXXXXXXXXXXXXXXX';
+      if (window.ADS_PUB_ID.indexOf('XXXX') === -1) {
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + window.ADS_PUB_ID;
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

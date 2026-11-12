@@ -1,0 +1,31 @@
+# ---- secrets / environment ----
+.env
+*.local
+
+# ---- Python (backend) ----
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Node (frontend) ----
+node_modules/
+frontend/dist/
+frontend/node_modules/.vite/
+frontend/node_modules/.vite-temp/
+*.tsbuildinfo
+
+# ---- uploaded media (runtime content, not source) ----
+backend/media/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- misc ----
+*.log
+npm-debug.log*

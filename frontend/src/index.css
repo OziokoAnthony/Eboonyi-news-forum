@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{font-family:'DM Sans',sans-serif;color:#17241f;background:#f7f6f1;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box} body{margin:0} button,input,select{font:inherit} .serif{font-family:'Playfair Display',Georgia,serif}

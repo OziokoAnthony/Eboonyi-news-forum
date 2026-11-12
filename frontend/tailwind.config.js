@@ -1,0 +1,1 @@
+export default { content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { colors: { ink: '#14251f', forest: '#164b3b', gold: '#d6a84f', paper: '#f7f6f1' }, fontFamily: { display: ['Georgia', 'serif'] } } }, plugins: [] };

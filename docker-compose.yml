@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ebonyi_forum_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ebonyi_forum
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - ebonyi_pgdata:/var/lib/postgresql/data
+volumes:
+  ebonyi_pgdata:
